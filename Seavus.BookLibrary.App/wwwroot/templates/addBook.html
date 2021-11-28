@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/addBook.css">
+    <link rel="stylesheet" href="../styles/catalog.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.27/jquery.autocomplete.min.js"></script>
+    <link rel="shortcut icon" href="#">
+    <title>AddBook</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Book Library App</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./catalog.html">Catalog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="./login.html">LogIn</a></li>
+            <li><a href="./register.html">Registration</a></li>
+        </ul>
+    </nav>
+    <br><br>
+
+    <br><br><br><br><br>
+    <div class="main-block">
+        <form action="/">
+            <h1>Add Book</h1>
+            <hr>
+            <div class="personal-details">
+                <div>
+                    <label>Title<span class="required">*</span></label>
+                    <input id="titleBook" class="first-name" type="text" name="name" placeholder="Title" required />
+                </div>
+                <div>
+                    <label>Copies<span class="required">*</span></label>
+                    <input id="numOfCopies" class="seminar-title" type="number" name="copies" required />
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <label>Full Name Author<span class="required">*</span></label>
+                    <input id="fullNameAuthor" class="first-name" type="text" name="firstName" placeholder="FirstName" />
+                </div>
+                <!-- <div>
+                    Selected Option: &nbsp;<span class="label label-default" id="selected_option"></span>
+                </div> -->
+            </div>
+            <br>
+            <hr>
+            <br>
+            <label for="genreVal">Choose a genre:</label>
+
+            <select name="genre" id="genreBook">
+              <option value="1">Action</option>
+              <option value="2">Comedy</option>
+              <option value="3">Horror</option>
+              <option value="4">Romantic</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <br>
+
+            <label for="statusVal">Is Active:</label>
+            <select name="status" id="statusBook">
+              <option value="true">True</option>
+              <option value="false">False</option>
+            </select>
+
+            <br><br>
+            <hr>
+            <br>
+
+            <div class="question-block">
+                <p class="question">Description</p>
+                <div class="answer">
+                    <textarea id="description" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="btn-block">
+                <button id="addBtn" type="submit">Add</button>
+            </div>
+        </form>
+    </div>
+    <script src="../scripts/addBook.js"></script>
+
+</body>
+
+</html>

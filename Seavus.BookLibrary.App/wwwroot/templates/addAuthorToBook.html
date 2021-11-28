@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/addBook.css">
+    <link rel="stylesheet" href="../styles/catalog.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="shortcut icon" href="#">
+    <title>AddAuthorToBook</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Book Library App</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./catalog.html">Catalog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="./login.html">LogIn</a></li>
+            <li><a href="./register.html">Registration</a></li>
+        </ul>
+    </nav>
+    <br><br>
+
+    <br><br><br><br><br>
+    <div class="main-block">
+        <form action="/">
+            <h1 id="header"></h1>
+            <hr>
+            <div class="personal-details">
+                <div>
+                    <label for="genreVal">Choose a author:</label>
+                    <select name="genre" id="authors"></select>
+                </div>
+            </div>
+
+            <div class="btn-block">
+                <button id="saveBtn" type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+    <script src="../scripts/addAuthorToBook.js"></script>
+</body>
+
+</html>

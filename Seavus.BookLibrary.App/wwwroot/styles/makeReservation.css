@@ -1,0 +1,18 @@
+#book-a-table {
+    background-color: #FAFAFA;
+    padding: 50px 0px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 50px 0px;
+    float: left;
+    width: 100%;
+}
+
+.book-a-table p {
+    color: #9a9a9a;
+}
+
+.book-a-table textarea {
+    min-height: 200px;
+    max-width: 100%;
+}

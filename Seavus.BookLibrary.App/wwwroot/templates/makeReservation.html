@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/makeReservation.css">
+    <link rel="shortcut icon" href="#">
+    <title>Make Reservation</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Book Library App</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./catalog.html">Catalog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="./login.html">LogIn</a></li>
+            <li><a href="./register.html">Registration</a></li>
+        </ul>
+    </nav>
+    <br><br>
+    <!-- Table Reservation Form -->
+    <section id="book-a-table" class="book-a-table">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2 class="text-dark">Booking A Book</h2>
+                    <p class="col-md 7 mb-2">* Booking is charged $ 100. The return period of the book is 14 days, with the fact that, if you do not return it by that deadline, a penalty price of $ 20 per day is charged, until you return it. *</p>
+                </div>
+            </div>
+
+            <form action="" method="post" role="form">
+                <div class="form-row">
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <label for="reservationPrice">FirstName</label>
+                        <input type="text" name="fName" class="form-control" id="firstName" value="" placeholder="First Name" readonly>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <label for="reservationPrice">Last Name</label>
+                        <input type="text" class="form-control" name="lName" id="lastName" value="" placeholder="Last Name" readonly>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <label for="reservationPrice">Username</label>
+                        <input type="text" class="form-control" name="name" id="username" value="" placeholder="Username" readonly>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <label for="reservationPrice">Start Date</label>
+                        <input type="date" name="date" class="form-control" id="startDate" value="" placeholder="Date" required>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <label for="reservationPrice">End Date</label>
+                        <input type="date" name="date" class="form-control" id="endDate" value="" placeholder="Date" readonly>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <label for="reservationPrice">Reservation Price</label>
+                        <input type="number" class="form-control" name="resPrice" id="reservationPrice" value="100" placeholder="Reservation Price" readonly>
+                    </div>
+                </div>
+                <label for="statusVal">Payment Method:</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" value="1" id="cashBox">
+                    <label class="form-check-label" for="flexRadioDefault">
+                      Cash
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" value="2" id="cardBox">
+                    <label class="form-check-label" for="flexRadioDefault">
+                      Card
+                    </label>
+                </div>
+                <button type="submit" id="saveBtn" class="btn btn-dark float-right mt-3">Save Reservation</button>
+            </form>
+        </div>
+    </section>
+    <!-- End Table Reservation Form -->
+
+    <script src="../scripts/makeReservation.js"></script>
+</body>
+
+</html>

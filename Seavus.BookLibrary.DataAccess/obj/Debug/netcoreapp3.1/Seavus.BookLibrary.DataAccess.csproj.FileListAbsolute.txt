@@ -1,0 +1,16 @@
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.deps.json
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.runtimeconfig.json
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.runtimeconfig.dev.json
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.dll
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.pdb
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.Domain.dll
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.Domain.pdb
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.AssemblyInfo.cs
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.dll
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.pdb
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.genruntimeconfig.cache
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.DataAccess\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.DataAccess.csproj.CopyComplete

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/reservation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="shortcut icon" href="#">
+    <title>Reservation</title>
+</head>
+
+<body>
+    <main>
+        <br><br><br><br><br>
+        <div class="wrap">
+            <label>Search Book By Title</label>
+            <div class="search">
+                <input id="searchInputBook" type="text" class="searchTerm" value="" placeholder="Search Book">
+            </div>
+        </div>
+        <br><br><br>
+        <div class="wrap">
+            <label>Search Book By Genre</label>
+            <div class="search">
+                <input id="searchInputGenre" type="text" class="searchTerm" value="" placeholder="Search Book">
+                </button>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="wrap">
+            <label>Search Book By Author</label>
+            <div class="search">
+                <input id="searchInputAuthor" type="text" class="searchTerm" value="" placeholder="Search Book">
+                </button>
+            </div>
+        </div>
+        <br><br>
+        <div id="buttonSearch">
+            <button id="searchBtn" type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+        </div>
+        
+        <br><br><br><br><br><br>
+
+        <div id="cardsDiv" class="card-group"></div>
+
+    </main>
+    <script src="../scripts/reservation.js"></script>
+</body>
+
+</html>

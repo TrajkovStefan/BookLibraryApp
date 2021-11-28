@@ -1,0 +1,297 @@
+body {
+    font-family: Varela Round;
+    background: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Card Styles */
+
+.card-sl {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 8px 8px 0px 0;
+}
+
+.card-action {
+    position: relative;
+    float: right;
+    margin-top: -25px;
+    margin-right: 20px;
+    z-index: 2;
+    color: #E26D5C;
+    background: #fff;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-action:hover {
+    color: #fff;
+    background: #E26D5C;
+}
+
+.card-heading {
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    padding: 10px 15px;
+}
+
+.card-text {
+    padding: 10px 15px;
+    background: #fff;
+    font-size: 14px;
+    color: #636262;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #1F487E;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+.card-button:hover {
+    text-decoration: none;
+    background-color: #1D3461;
+    color: #fff;
+}
+
+button {
+    margin: 20px;
+    outline: none;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.btn-6 {
+    background: #000;
+    color: #fff;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+
+.btn-6 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-6:before,
+.btn-6:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 2px;
+    background: #000;
+}
+
+.btn-6:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+}
+
+.btn-6:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+}
+
+.btn-6:hover {
+    color: #000;
+    background: transparent;
+}
+
+.btn-6:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.btn-6:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.btn-6 span:before,
+.btn-6 span:after {
+    position: absolute;
+    content: "";
+    background: #000;
+}
+
+.btn-6 span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 2px;
+    transition: all 500ms ease;
+}
+
+.btn-6 span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    transition: all 500ms ease;
+}
+
+.btn-6 span:hover:before {
+    width: 100%;
+}
+
+.btn-6 span:hover:after {
+    width: 100%;
+}
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.frameReservation {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    text-align: center;
+}
+
+.btn:not(a) {
+    border: 0;
+    border-bottom: 0;
+    border-left: 0;
+    font-weight: '900';
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: inset 0 -3.2px rgba(0, 0, 0, 0.12), inset 2px 0 rgba(0, 0, 0, 0.1);
+    outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -moz-outline: none;
+}
+
+.btn:active:not(a),
+.btn.active {
+    outline: none;
+    -moz-outline: none;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+    position: relative;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+    top: 1px;
+    left: -1px;
+}
+
+.btn:focus:not(a) {
+    outline: none;
+    -webkit-outline: none;
+    -moz-outline: none;
+}
+
+.btn-sm {
+    padding-top: 1.5px;
+}
+
+.buttons {
+    margin-left: 38%;
+}
+
+.buttonsBook {
+    margin-left: 33%;
+}
+
+#bookHeader {
+    text-align: center;
+}
+
+#authorHeader {
+    text-align: center;
+}
+
+#reservationHeader {
+    text-align: center;
+}
+
+#userReservationsHeader {
+    text-align: center;
+}
+
+.popup-overlay {
+    visibility: hidden;
+}
+
+.popup-content {
+    visibility: hidden;
+}
+
+.popup-overlay.active {
+    visibility: visible;
+}
+
+.popup-content.active {
+    visibility: visible;
+}
+
+#myReservations {
+    width: 150px;
+}
+
+#myUsers {
+    margin-right: 1350px;
+}
+
+#headerAllUsers {
+    text-align: center;
+}
+
+#getBtn {
+    width: 100px;
+    cursor: pointer;
+}
+
+#getBtnAuthors {
+    width: 100px;
+    cursor: pointer;
+}
+
+#getBtnReservations {
+    width: 100px;
+    cursor: pointer;
+}
+
+#myUsers {
+    width: 100px;
+    cursor: pointer;
+}
+
+#reservation {
+    width: 100px;
+    cursor: pointer;
+}

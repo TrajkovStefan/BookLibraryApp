@@ -1,0 +1,13 @@
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.deps.json
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.runtimeconfig.json
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.runtimeconfig.dev.json
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.dll
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\bin\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.pdb
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.csproj.AssemblyReference.cache
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.AssemblyInfoInputs.cache
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.AssemblyInfo.cs
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.csproj.CoreCompileInputs.cache
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.dll
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.pdb
+C:\Users\stefan.trajkov\Desktop\BookLibrary\Seavus.BookLibrary\Seavus.BookLibrary.Shared\obj\Debug\netcoreapp3.1\Seavus.BookLibrary.Shared.genruntimeconfig.cache
