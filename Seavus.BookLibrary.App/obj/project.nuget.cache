@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FFaQYmyhKJac8woDn+I3pXM28vck3i1GPNpVtF6WepOGaNurGFfHnN1aYFdG9Tbtiyr+wwj1HlowW/pQGWrLzw==",
+  "dgSpecHash": "+O3n+ZcwW/Qr/AuzyGo/5A+nK82WfJRLWaKoqE66jhnzT1pryrkHGKumXRQo30RHluxsc3dXraqTrZaYV3g0yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.App\\Seavus.BookLibrary.App.csproj",
+  "projectFilePath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.App\\Seavus.BookLibrary.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stefan.trajkov\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.1\\microsoft.aspnetcore.authentication.jwtbearer.3.1.1.nupkg.sha512",
     "C:\\Users\\stefan.trajkov\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

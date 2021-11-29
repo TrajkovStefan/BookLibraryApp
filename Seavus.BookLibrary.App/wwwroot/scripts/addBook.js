@@ -72,16 +72,15 @@ let addBook = async() => {
             body: JSON.stringify(book)
         })
         .then(function(response) {
-            //CheckResponse(response);
-            console.log(response);
-            if (response.status != 201) {
-                window.location.reload();
-                response.text()
-                    .then(function(text) {
+            response.text()
+                .then(function(text) {
+                    if (response.status != 201) {
+                        window.location.reload();
                         return alert(text);
-                    })
-            }
-            window.location.href = "http://localhost:62683/templates/catalog.html"
+                    } else {
+                        window.location.href = "http://localhost:62683/templates/catalog.html";
+                    }
+                })
         })
         .catch(function(error) {
             console.log(error);
@@ -89,15 +88,3 @@ let addBook = async() => {
 }
 
 addButton.addEventListener("click", addBook);
-
-async function CheckResponse(response) {
-    console.log(response);
-    if (response.status != 201) {
-        window.location.reload();
-        response.text()
-            .then(function(text) {
-                return alert(text);
-            })
-    }
-    window.location = "http://localhost:62683/templates/catalog.html";
-}

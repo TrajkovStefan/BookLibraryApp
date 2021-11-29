@@ -38,6 +38,7 @@ startDate.on("change", (e) => {
     window.location.reload = "http://localhost:62683/templates/makeReservation.html";
 })
 
+paymentMethod = "0";
 $('input[name="flexRadioDefault"]').on("click", function() {
     paymentMethod = $('input[name="flexRadioDefault"]:checked').val();
 })
@@ -70,8 +71,11 @@ let addReservation = async() => {
     .then(function(response) {
             console.log(response);
             if (response.status != 201) {
-                window.location.reload();
-                return alert("The reservation cant be created! Try Again!");
+                response.text()
+                    .then(function(text) {
+                        window.location.reload();
+                        return alert(text);
+                    })
             } else {
                 window.location = "http://localhost:62683/templates/catalog.html";
             }

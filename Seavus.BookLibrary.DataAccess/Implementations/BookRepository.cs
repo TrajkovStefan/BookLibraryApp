@@ -31,7 +31,7 @@ namespace Seavus.BookLibrary.DataAccess.Implementations
 
         public IEnumerable<Book> GetAllBooksIEnumerable()
         {
-            return _bookLibraryDbContext.Book
+            return _bookLibraryDbContext.Book.Where(x => x.Status == true && x.NumOfCopies > 0)
                                         .Include(x => x.AuthorBook)
                                         .ThenInclude(x => x.Author);
         }
