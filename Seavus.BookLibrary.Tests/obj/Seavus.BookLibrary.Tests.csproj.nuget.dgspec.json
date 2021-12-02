@@ -1,0 +1,599 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Tests\\Seavus.BookLibrary.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj",
+        "projectName": "Seavus.BookLibrary.DataAccess",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj",
+        "projectName": "Seavus.BookLibrary.Domain",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj",
+        "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj",
+        "projectName": "Seavus.BookLibrary.Dtos",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj",
+        "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj",
+        "projectName": "Seavus.BookLibrary.Mappers",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj",
+        "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj"
+              },
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
+              },
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj",
+        "projectName": "Seavus.BookLibrary.Services",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj",
+        "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj"
+              },
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj"
+              },
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj"
+              },
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.13.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj",
+        "projectName": "Seavus.BookLibrary.Shared",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj",
+        "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Tests\\Seavus.BookLibrary.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Tests\\Seavus.BookLibrary.Tests.csproj",
+        "projectName": "Seavus.BookLibrary.Tests",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Tests\\Seavus.BookLibrary.Tests.csproj",
+        "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

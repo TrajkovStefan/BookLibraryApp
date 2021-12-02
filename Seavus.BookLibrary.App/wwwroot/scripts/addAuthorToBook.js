@@ -49,15 +49,13 @@ let addAuthorToBook = async() => {
             body: JSON.stringify(authorBook)
         })
         .then(function(response) {
-            response.text()
-                .then(function(text) {
-                    if (response.status != 201) {
-                        window.location.reload();
-                        return alert(text);
-                    } else {
-                        window.location.href = "http://localhost:62683/templates/catalog.html";
-                    }
-                })
+            console.log(response);
+            if (response.status != 201) {
+                window.location.reload();
+                return alert("The author cant be added to book. Try Again!");
+            } else {
+                window.location = "http://localhost:62683/templates/catalog.html";
+            }
         })
         .catch(function(error) {
             console.log(error);

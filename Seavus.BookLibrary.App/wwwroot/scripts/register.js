@@ -33,7 +33,6 @@ let register = async() => {
                         window.location.href = "http://localhost:62683/templates/index.html"
                     }
                 })
-
         })
         .catch(function(error) {
             console.log(error);

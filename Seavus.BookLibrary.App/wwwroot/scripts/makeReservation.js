@@ -28,11 +28,11 @@ $('document').ready(function() {
 startDate.on("change", (e) => {
     let reservationDate = new Date(e.target.value);
     let endReservationDate = new Date();
-    if (reservationDate <= endReservationDate) {
-        startDate.attr("value", );
-        window.location.reload = "http://localhost:62683/templates/makeReservation.html";
-        return alert("You can not select past days");
-    }
+    // if (reservationDate <= endReservationDate) {
+    //     startDate.attr("value", );
+    //     window.location.reload = "http://localhost:62683/templates/makeReservation.html";
+    //     return alert("You can not select past days");
+    // }
     endReservationDate.setDate(reservationDate.getDate() + 14);
     endDate.attr("value", endReservationDate.toISOString().split('T')[0].replace("/", "-"));
     window.location.reload = "http://localhost:62683/templates/makeReservation.html";

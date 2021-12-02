@@ -78,7 +78,7 @@ let addBook = async() => {
                         window.location.reload();
                         return alert(text);
                     } else {
-                        window.location.href = "http://localhost:62683/templates/catalog.html";
+                        window.location = "http://localhost:62683/templates/catalog.html";
                     }
                 })
         })

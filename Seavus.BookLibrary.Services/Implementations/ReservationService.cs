@@ -129,7 +129,7 @@ namespace Seavus.BookLibrary.Services.Implementations
             {
                 throw new ReservationException("You must choose a payment method!");
             }
-            if (DateTime.Parse(addReservationDto.StartDate) < DateTime.UtcNow)
+            if(DateTime.Parse(addReservationDto.StartDate) < DateTime.UtcNow)
             {
                 throw new ReservationException("You can not choose the past days!");
             }

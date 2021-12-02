@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj": {}
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj",
         "projectName": "Seavus.BookLibrary.DataAccess",
-        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj",
         "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj",
         "projectName": "Seavus.BookLibrary.Domain",
-        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj",
         "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\obj\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj",
         "projectName": "Seavus.BookLibrary.Dtos",
-        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj",
         "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Dtos\\obj\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -192,8 +192,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
               }
             }
           }
@@ -252,14 +252,14 @@
         }
       }
     },
-    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj": {
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj",
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj",
         "projectName": "Seavus.BookLibrary.Mappers",
-        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj",
         "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Mappers\\obj\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -276,14 +276,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj"
               },
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Domain\\Seavus.BookLibrary.Domain.csproj"
               },
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj"
               }
             }
           }
@@ -342,14 +342,14 @@
         }
       }
     },
-    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj": {
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj",
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj",
         "projectName": "Seavus.BookLibrary.Services",
-        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\Seavus.BookLibrary.Services.csproj",
         "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Services\\obj\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -366,17 +366,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.DataAccess\\Seavus.BookLibrary.DataAccess.csproj"
               },
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Dtos\\Seavus.BookLibrary.Dtos.csproj"
               },
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Mappers\\Seavus.BookLibrary.Mappers.csproj"
               },
-              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj": {
-                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj"
+              "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj": {
+                "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj"
               }
             }
           }
@@ -439,14 +439,14 @@
         }
       }
     },
-    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj": {
+    "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj",
         "projectName": "Seavus.BookLibrary.Shared",
-        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj",
+        "projectPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\Seavus.BookLibrary.Shared.csproj",
         "packagesPath": "C:\\Users\\stefan.trajkov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\GitHub\\BookLibraryApp\\Seavus.BookLibrary.Shared\\obj\\",
+        "outputPath": "C:\\Users\\stefan.trajkov\\Desktop\\BookLibrary\\Seavus.BookLibrary\\Seavus.BookLibrary.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stefan.trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",

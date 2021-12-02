@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.App", "Seavus.BookLibrary.App\Seavus.BookLibrary.App.csproj", "{7A880DC2-366A-481E-8871-70742EBAE0AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seavus.BookLibrary.App", "Seavus.BookLibrary.App\Seavus.BookLibrary.App.csproj", "{7A880DC2-366A-481E-8871-70742EBAE0AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.DataAccess", "Seavus.BookLibrary.DataAccess\Seavus.BookLibrary.DataAccess.csproj", "{BE4FB746-1716-422E-BC34-BEE41C53451F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seavus.BookLibrary.DataAccess", "Seavus.BookLibrary.DataAccess\Seavus.BookLibrary.DataAccess.csproj", "{BE4FB746-1716-422E-BC34-BEE41C53451F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.Domain", "Seavus.BookLibrary.Domain\Seavus.BookLibrary.Domain.csproj", "{05FBD9F4-F6AD-4D42-925A-6711C23C41B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seavus.BookLibrary.Domain", "Seavus.BookLibrary.Domain\Seavus.BookLibrary.Domain.csproj", "{05FBD9F4-F6AD-4D42-925A-6711C23C41B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.Services", "Seavus.BookLibrary.Services\Seavus.BookLibrary.Services.csproj", "{09B29443-5E6F-4CCB-90AE-7562C0742B84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seavus.BookLibrary.Services", "Seavus.BookLibrary.Services\Seavus.BookLibrary.Services.csproj", "{09B29443-5E6F-4CCB-90AE-7562C0742B84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.Shared", "Seavus.BookLibrary.Shared\Seavus.BookLibrary.Shared.csproj", "{8CB20950-5CD0-40C1-9035-F474BE023CC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seavus.BookLibrary.Shared", "Seavus.BookLibrary.Shared\Seavus.BookLibrary.Shared.csproj", "{8CB20950-5CD0-40C1-9035-F474BE023CC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.Helpers", "Seavus.BookLibrary.Helpers\Seavus.BookLibrary.Helpers.csproj", "{B941D672-AFE2-42FF-A259-2BAD962399E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seavus.BookLibrary.Helpers", "Seavus.BookLibrary.Helpers\Seavus.BookLibrary.Helpers.csproj", "{B941D672-AFE2-42FF-A259-2BAD962399E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.Dtos", "Seavus.BookLibrary.Dtos\Seavus.BookLibrary.Dtos.csproj", "{D1F692EF-60A9-4BCA-B196-466E19578C6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seavus.BookLibrary.Dtos", "Seavus.BookLibrary.Dtos\Seavus.BookLibrary.Dtos.csproj", "{D1F692EF-60A9-4BCA-B196-466E19578C6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.Mappers", "Seavus.BookLibrary.Mappers\Seavus.BookLibrary.Mappers.csproj", "{0F1C0B68-A7C1-4471-ABF7-0A57DC57750A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seavus.BookLibrary.Mappers", "Seavus.BookLibrary.Mappers\Seavus.BookLibrary.Mappers.csproj", "{0F1C0B68-A7C1-4471-ABF7-0A57DC57750A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seavus.BookLibrary.Tests", "Seavus.BookLibrary.Tests\Seavus.BookLibrary.Tests.csproj", "{AE210B09-9EC5-4A03-84F7-73DD2CA4F4EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{0F1C0B68-A7C1-4471-ABF7-0A57DC57750A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1C0B68-A7C1-4471-ABF7-0A57DC57750A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1C0B68-A7C1-4471-ABF7-0A57DC57750A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE210B09-9EC5-4A03-84F7-73DD2CA4F4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE210B09-9EC5-4A03-84F7-73DD2CA4F4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE210B09-9EC5-4A03-84F7-73DD2CA4F4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE210B09-9EC5-4A03-84F7-73DD2CA4F4EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
